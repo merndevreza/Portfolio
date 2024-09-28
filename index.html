@@ -1,0 +1,1380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Rezaul Karim &#124; MERN Developer</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="images/logo/favicon.png"
+    />
+    <!-- GOOGLE FONTS -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- BOOTSTRAP CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <!-- FONTAWESOME CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- FANCY BOX CSS -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <!-- SLICCK SLIDER CSS -->
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <!-- CUSTOME CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/humburger_menu.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <!--========================== START HEADER SECTION ==========================-->
+    <header class="header_section" id="home">
+      <nav class="navbar navbar-expand-lg py-4 bg-white">
+        <div class="container">
+          <!------- LOGO ------->
+          <a class="logo-text" href="/">Rezaul <span>Karim</span></a>
+          <!------- LOGO ------->
+          <!------- NAV ICON ------->
+          <div
+            class="menu-btn navbar-toggler bg-white"
+            data-target="#navbarNav"
+          >
+            <div class="menu-btn__burger"></div>
+          </div>
+          <!------- NAV ICON ------->
+          <div
+            class="collapse navbar-collapse justify-content-end menu"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav text-center text-lg-left" id="nav">
+              <li class="nav-item mb-4 mb-lg-0 nav_active current">
+                <a
+                  class="nav-link text-uppercase position-relative"
+                  href="#home"
+                  >home</a
+                >
+              </li>
+              <li class="nav-item mb-4 mb-lg-0">
+                <a
+                  class="nav-link text-uppercase position-relative"
+                  href="#about"
+                  >about</a
+                >
+              </li>
+              <li class="nav-item mb-4 mb-lg-0">
+                <a
+                  class="nav-link text-uppercase position-relative"
+                  href="#skill"
+                  >skill</a
+                >
+              </li>
+              <li class="nav-item mb-4 mb-lg-0">
+                <a
+                  class="nav-link text-uppercase position-relative"
+                  href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item mb-4 mb-lg-0">
+                <a
+                  class="nav-link text-uppercase position-relative"
+                  href="#portfolio"
+                  >portfolio</a
+                >
+              </li>
+              <li class="nav-item mb-4 mb-lg-0">
+                <a
+                  class="nav-link text-uppercase position-relative"
+                  href="#testimonial"
+                  >testimonial</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link text-uppercase position-relative"
+                  href="#contact"
+                  >contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="h_main_content js_sticky_menu">
+        <div class="container">
+          <div class="header_content">
+            <div
+              class="my_header_img mx-auto text-center rounded-circle shadow-lg"
+            >
+              <img
+                src="images/hero/rezaul-karim.png"
+                alt="Rezaul Karim"
+                class="rounded-circle"
+              />
+            </div>
+            <div class="header_text text-center">
+              <h1 class="text-uppercase mb-4 mt-5">
+                Rezaul <span>Karim</span>
+              </h1>
+              <h3 class="mb-5">I'm a <span class="header_typing"></span></h3>
+              <!-- Button trigger modal -->
+              <a
+                href="https://www.fiverr.com/rezaul_karim_bd"
+                target="_blank"
+                class="custom_btn rounded-pill"
+                >hire me</a
+              >
+              <a
+                href="#about"
+                class="d-block mt-2 mx-auto position-relative scroll_about_btn"
+                ><i class="fas fa-angle-double-down"></i
+              ></a>
+              <!---- Modal UpWork & Fiverr Link ---->
+              <div class="hire_area">
+                <div
+                  class="modal fade"
+                  style="background: rgba(0, 0, 0, 0.3) !important"
+                  id="staticBackdrop"
+                  data-backdrop="static"
+                  data-keyboard="false"
+                  tabindex="-1"
+                  aria-labelledby="staticBackdropLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog hire_link">
+                    <div class="modal-content modal_bg border-0">
+                      <div class="modal-header modal_heading bg-white">
+                        <a href="index.html"
+                          ><img
+                            src="images/logo/favicon.png"
+                            alt="logo"
+                            style="width: 5rem"
+                        /></a>
+                        <button
+                          type="button"
+                          class="close mt-1 pr-4"
+                          data-dismiss="modal"
+                          aria-label="Close"
+                        >
+                          <span aria-hidden="true" style="font-size: 3rem"
+                            >&times;</span
+                          >
+                        </button>
+                      </div>
+                      <div class="modal-body position-relative">
+                        <div class="hire_btn">
+                          <a
+                            href=""
+                            target="_blank"
+                            class="text-uppercase rounded-pill mb-4"
+                          >
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 102.4 30"
+                              width="106"
+                              height="30"
+                              role="img"
+                              aria-hidden="true"
+                            >
+                              <path
+                                fill="#494949"
+                                d="M65.4 6.9c-4.5 0-8.1 3.6-8.1 8.1s3.6 8.1 8.1 8.1 8.1-3.6 8.1-8.1-3.6-8.1-8.1-8.1zm0 12.9c-2.6 0-4.8-2.1-4.8-4.8s2.1-4.8 4.8-4.8c2.6 0 4.8 2.1 4.8 4.7 0 2.7-2.1 4.9-4.8 4.9zM83.4 10.8c-2.3 0-4.2 1.9-4.2 4.2v7.7h-3.5V7.4h3.5v2.4c1-1.5 2.7-2.4 4.5-2.4h1.1v3.4h-1.4zM48.2 7.4L50.8 18l2.9-10.6h3.4l-4.4 15.3h-3.5L46.5 12l-2.7 10.7h-3.5L35.9 7.4h3.4L42.2 18l2.7-10.6zM95 14.4c2.6-1.4 4.1-4.1 4.1-7.1h-3.4c0 2.6-2.1 4.6-4.6 4.6h-.5V0h-3.5v22.7h3.5v-7.2h.4c.4 0 .8.2 1 .5l4.9 6.7h4.2L95 14.4z"
+                                class="logo-work"
+                              ></path>
+                              <path
+                                fill="#6fda44"
+                                d="M27.6 6.9c-3.8 0-6.7 2.5-7.9 6.5-1.8-2.7-3.1-5.7-4-8.8h-4.1v10.6c0 2.1-1.7 3.8-3.8 3.8S4 17.3 4 15.2V4.7H0v10.6c0 4.3 3.5 7.9 7.9 7.9s7.9-3.5 7.9-7.9v-1.8c.8 1.7 1.8 3.3 2.9 4.8L16.2 30h4.2l1.8-8.5c1.6 1.1 3.5 1.7 5.5 1.7 4.5 0 8.1-3.6 8.1-8.1-.1-4.5-3.7-8.2-8.2-8.2zm0 12.2c-1.7-.1-3.3-.7-4.6-1.8l.3-1.6v-.1c.3-1.7 1.3-4.6 4.2-4.6 2.2-.1 4 1.7 4.1 3.9.1 2.2-1.7 4-3.9 4.1l-.1.1z"
+                              ></path>
+                            </svg>
+                          </a>
+                          <a
+                            href=""
+                            target="_blank"
+                            class="text-uppercase rounded-pill mb-4"
+                          >
+                            <svg
+                              width="89"
+                              height="27"
+                              viewBox="0 0 89 27"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g id="fiverr_logo_nav" fill="#404145">
+                                <path
+                                  d="m81.6 13.1h-3.1c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-13.4h-2.5c-2 0-3.1 1.5-3.1 4.1v9.3h-6v-18.4h6v2.8c1-2.2 2.3-2.8 4.3-2.8h7.3v2.8c1-2.2 2.3-2.8 4.3-2.8h2zm-25.2 5.6h-12.4c.3 2.1 1.6 3.2 3.7 3.2 1.6 0 2.7-.7 3.1-1.8l5.3 1.5c-1.3 3.2-4.5 5.1-8.4 5.1-6.5 0-9.5-5.1-9.5-9.5 0-4.3 2.6-9.4 9.1-9.4 6.9 0 9.2 5.2 9.2 9.1 0 .9 0 1.4-.1 1.8zm-5.7-3.5c-.1-1.6-1.3-3-3.3-3-1.9 0-3 .8-3.4 3zm-22.9 11.3h5.2l6.6-18.3h-6l-3.2 10.7-3.2-10.8h-6zm-24.4 0h5.9v-13.4h5.7v13.4h5.9v-18.4h-11.6v-1.1c0-1.2.9-2 2.2-2h3.5v-5h-4.4c-4.3 0-7.2 2.7-7.2 6.6v1.5h-3.4v5h3.4z"
+                                ></path>
+                              </g>
+                              <g id="fiverr_logo_nav_dot" fill="#1dbf73">
+                                <path
+                                  d="m85.3 27c2 0 3.7-1.7 3.7-3.7s-1.7-3.7-3.7-3.7-3.7 1.7-3.7 3.7 1.7 3.7 3.7 3.7z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </a>
+                          <a
+                            href="#contact"
+                            target="_blank"
+                            class="text-uppercase rounded-pill"
+                            >message</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--========================== END HEADER SECTION ==========================-->
+
+    <!--========================== START ABOUT SECTION ==========================-->
+
+    <section class="about_section bg_color" id="about">
+      <div class="container">
+        <div class="about_title text-center sec_row1_mb">
+          <h2 class="sec_title text-capitalize position-relative m-0">
+            About <span>Me</span>
+          </h2>
+          <p class="sec_top_desc mt-4 mx-auto">
+            Discover my journey at a glance
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="about_img">
+              <img
+                src="images/about/about.png"
+                alt="Rezaul Karim"
+                class="w-100 d-block shadow"
+              />
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="row pl-lg-5">
+              <div class="col-sm-12">
+                <div class="about_text mb-5">
+                  <h3 class="sub_title">
+                    I'm Rezaul Karim
+                    <span class="d-block d-sm-inline-block mt-3 mt-sm-0"
+                      >and <span class="about_typing"></span
+                    ></span>
+                  </h3>
+                  <p class="paragraph mt-4">
+                    A JavaScript focused full-stack MERN developer with over 4
+                    years of experience in web development and freelancing.
+                    Specializing in Javascript, React.js, Next.js, Express.js,
+                    MongoDB, Mongoose, Tailwind CSS, Material UI, Bootstrap and
+                    Wordpress for more than 3 years. Highly skilled in writing
+                    clean, organized code, ensuring easy maintainability.
+                    Proficient in Git for version control. A Level-2 seller on
+                    Fiverr with 96 successfully completed orders, and 68
+                    five-star reviews with client satisfaction. Excellent
+                    presentation skills and passionate about mentorship
+                  </p>
+                </div>
+              </div>
+				  <div>
+					
+              <div class="about-skills-sec mb-5">
+                 <div class="skill-card">
+						Full-Stack Developer
+					  </div>
+                 <div class="skill-card">
+						MERN-Stack Developer
+					  </div>
+                 <div class="skill-card">
+						Next.js Developer
+					  </div>
+                 <div class="skill-card">
+						React Developer
+					  </div>
+                 <div class="skill-card">
+						Wordpress Expert
+					  </div>
+                 <div class="skill-card">
+						Woocommerce Expert
+					  </div>
+                 <div class="skill-card">
+						Speed Optimization
+					  </div> 
+                 <div class="skill-card">
+						Responsive Design Expert
+					  </div> 
+              </div>
+              <div class="">
+                <ul class="list-inline about_list">
+                  <li class="paragraph mb-2">
+                    <strong class="mr-3">WhatsApp :</strong
+                    ><span>
+                      <a href="tel:+8801780572272" class="paragraph"
+                        >+8801780572272</a
+                      ></span
+                    >
+                  </li>
+                  <li class="paragraph mb-2">
+                    <strong class="mr-3">E-Mail :</strong
+                    ><span
+                      ><a
+                        href="mailto:rezaulkarimpstu@gmail.com"
+                        class="paragraph"
+                        >rezaulkarimpstu@gmail.com</a
+                      ></span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div >
+                <div class="social_link mb-4 mt-0">
+                  <ul class="list-inline">
+							<li class="list-inline-item">
+							  <a
+								 href="https://github.com/merndevreza"
+								 target="_blank"
+								 class="d-inline-block text-center"
+								 ><i class="fab fa-github"></i
+							  ></a>
+							</li>
+                    <li class="list-inline-item mr-3">
+                      <a
+                        href="https://www.linkedin.com/in/webdevreza/"
+                        target="_blank"
+                        class="d-inline-block text-center"
+                        ><i class="fab fa-linkedin-in"></i
+                      ></a>
+                    </li>
+                    
+                    <li class="list-inline-item mr-3">
+							<a
+							  href="https://www.facebook.com/webdevreza"
+							  target="_blank"
+							  class="d-inline-block text-center"
+							  ><i class="fab fa-facebook-f"></i
+							></a>
+						 </li>
+                  </ul>
+                </div>
+					 <div class="about_btn"></div>
+                  <a
+                    href="cv/resume.pdf"
+                    target="_blank"
+                    class="custom_btn rounded-pill"
+                    >download Resume</a
+                  >
+                </div>
+              </div>
+               
+				</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================== END ABOUT SECTION ==========================-->
+
+    <!--========================== START SKILL SECTION ==========================-->
+    <section class="skill_section" id="skill">
+      <div class="container">
+        <div class="skill_title text-center sec_row1_mb">
+          <h2 class="sec_title text-capitalize position-relative m-0">
+            my <span>skill</span>
+          </h2>
+          <p class="sec_top_desc mt-4 mx-auto">My skill set</p>
+        </div>
+        <div class="skills-sec">
+         <div class="skill-card-with-level">
+			<p>JavaScript</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Next.js</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>React</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Express</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Tailwind</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Bootstrap</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Wordpress</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>HTML</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>CSS</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>SCSS</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level m2">
+			<p>JQuery</p>
+			<span>Intermediate</span>
+			</div>
+         <div class="skill-card-with-level m2">
+			<p>MUI</p>
+			<span>Intermediate</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>MongoDB</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Mongoose</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Redux</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Shadcn/ui</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>NextAuth</p>
+			<span>Advance</span>
+			</div> 
+         <div class="skill-card-with-level">
+			<p>Woocommerce</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Elementor</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Divi</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>WP Bakery</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>WP Rocket</p>
+			<span>Advance</span>
+			</div> 
+         <div class="skill-card-with-level">
+			<p>Yoast SEO</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Axios</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level">
+			<p>Postman</p>
+			<span>Advance</span>
+			</div>
+         <div class="skill-card-with-level m2">
+			<p>Framer Motion</p>
+			<span>Intermediate</span>
+			</div>
+         <div class="skill-card-with-level m3">
+			<p>TypeScript</p>
+			<span>Bigener</span>
+			</div>
+        </div>
+      </div>
+    </section>  
+    <!--========================== END SKILL SECTION ==========================-->
+
+    <!--========================== START SERVICE SECTION ==========================-->
+    <section class="service_section bg_color" id="services">
+      <div class="container">
+        <div class="service_title text-center sec_row1_mb">
+          <h2 class="sec_title text-capitalize position-relative m-0">
+            amazing <span>service</span>
+          </h2>
+          <p class="sec_top_desc mt-4 mx-auto">
+            Check my Top services
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col_md_mb">
+            <div class="service_content text-center position-relative">
+              <div class="service_number text-center">
+                <span class="text-white font-weight-bold">01</span>
+              </div> 
+              <h3 class="sub_title mt-5 mb-4 text-capitalize">MERN Stack</h3>
+              <p class="paragraph">
+					I specialize in building dynamic and scalable web applications using the MERN stack, which includes MongoDB, Express.js, React, and Node.js. This technology suite allows for efficient development of full-stack applications, ensuring seamless integration between the frontend and backend. Whether you're looking to develop a custom web application or an e-commerce platform, I can deliver robust solutions tailored to your needs.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col_md_mb">
+            <div class="service_content text-center position-relative">
+              <div class="service_number text-center">
+                <span class="text-white font-weight-bold">02</span>
+              </div> 
+              <h3 class="sub_title mt-5 mb-4 text-capitalize">
+                Next.js
+              </h3>
+              <p class="paragraph">
+					Leveraging the power of Next.js, I create high-performance, server-side rendered React applications. Next.js enhances React's capabilities by providing features like server-side rendering and static site generation, leading to improved performance and search engine optimization. If you need a fast, responsive, and SEO-friendly website, Next.js is an excellent choice.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+            <div class="service_content text-center position-relative">
+              <div class="service_number text-center">
+                <span class="text-white font-weight-bold">03</span>
+              </div> 
+              <h3 class="sub_title mt-5 mb-4 text-capitalize">Wordpress</h3>
+              <p class="paragraph">
+               With extensive experience in WordPress, I offer customization services to tailor your website to your specific requirements. This includes theme development and customization, plugin integration, and performance optimization. Whether you're setting up a new WordPress site or enhancing an existing one, I can help you achieve a professional and functional website that aligns with your vision.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================== END SERVICE SECTION ==========================-->
+
+    <!--========================== START PORTFOLIO SECTION ==========================-->
+    <section class="portfolio_section" id="portfolio">
+      <div class="container">
+        <div class="portfolio_title text-center sec_row1_mb">
+          <h2 class="sec_title text-capitalize position-relative m-0">
+            My <span>portfolio</span>
+          </h2>
+          <p class="sec_top_desc mt-4 mx-auto">
+            Check out my latest creative works.
+          </p>
+        </div>
+        <div class="row mt-5">
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/2.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">Next.js</li>
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Mongoose</li>
+							<li class="portfolio-skill">NextAuth</li> 
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Book-Nest"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://book-nest-tau.vercel.app"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/1.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/3.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/4.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/5.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/6.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/7.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/8.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/9.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/10.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/11.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/12.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/13.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/14.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div> 
+          <div class="col-lg-4 col-md-6 col_xl_mb">
+            <div class="portfolio position-relative border dh-container">
+              <img
+                src="images/portfolio/web/15.png"
+                alt="real-estae"
+                class="w-100"
+              />
+              <div class="overlay dh-overlay">
+                <div class="overlay_text w-100">
+						<h3 class="text-white text-center text-uppercase mb-4">Technologies</h3>
+						<ul class="portfolio-text">
+							<li class="portfolio-skill">React</li>
+							<li class="portfolio-skill">Express</li>
+							<li class="portfolio-skill">MongoDB</li>
+							<li class="portfolio-skill">Tailwind</li>
+							<li class="portfolio-skill">Slick Slider</li>
+							<li class="portfolio-skill">React Router</li>
+							<li class="portfolio-skill">Firebase</li>
+						</ul>
+                  <ul class="text-center"> 
+                    <li class="list-inline-item">
+                      <a
+                        href="https://github.com/merndevreza/Fluffy-Friend-ClientSide"
+                        target="_blank"
+                        ><i class="fab fa-github"></i
+                      ></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a
+                        href="https://fluffy-friends-4a865.web.app/"
+                        target="_blank"
+                        ><i class="fas fa-link"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div class="col-12 mt-5">
+            <div class="more_site_btn text-center mt-5">
+              <a
+                href="https://github.com/merndevreza"
+                target="_blank"
+                class="custom_btn rounded-pill"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================== END PORTFOLIO SECTION ==========================-->
+
+    <!--========================== START PORTFOLIO SECTION ==========================-->
+    <section class="testimonial_section bg_color" id="testimonial">
+      <div class="container">
+        <div class="testimonial_title text-center sec_row1_mb">
+          <h2 class="sec_title text-capitalize position-relative m-0">
+            testimonial
+          </h2>
+          <p class="sec_top_desc mt-4 mx-auto">
+            Hard work always pays off. I always try to make them 100% satisfied
+            by providing quality services. Their feedback always makes me
+            inspired.
+          </p>
+        </div>
+        <div class="row slider">
+          <div class="col-md-6 column_outline_remove pb-5">
+            <div class="slider-content shadow bg-white p-5 text-center">
+              <img
+                src="images/testimonial/minhaz_faisal.jpg"
+                alt="minhaz faisal"
+                class="img-fluid rounded-circle mx-auto"
+              />
+              <h3 class="sub_title mt-5 mb-3 text-capitalize">minhaz faisal</h3>
+              <span class="text-capitalize"
+                >lead mentor <span class="text-lowercase">of</span> shikhbe
+                shobai</span
+              >
+              <p class="paragraph mt-4">
+                <span class="quote">“</span> I am Rezaul Karim's mentor. I'm
+                honestly saying he's a good web designer. I gave him a train up
+                and the best student in my batch was Rezaul Karim's. Rezaul Karim
+                 always wishes you all the best.
+                <span class="quote">”</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 column_outline_remove pb-5">
+            <div class="slider-content shadow bg-white p-5 text-center">
+              <img
+                src="images/testimonial/akash.jpg"
+                alt="akash"
+                class="img-fluid rounded-circle mx-auto"
+              />
+              <h3 class="sub_title mt-5 mb-3 text-capitalize">akash</h3>
+              <span class="text-capitalize"
+                ><span class="text-uppercase">ui</span> designer</span
+              >
+              <p class="paragraph mt-4">
+                <span class="quote">“</span> Rezaul Karimn is a good developer.
+                He helped me create amazing websites in a short time. I am 100%
+                satisfied with his work. Thank you, Rezaul Karim for your work.
+                I will always try to work with you. <span class="quote">”</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 column_outline_remove pb-5">
+            <div class="slider-content shadow bg-white p-5 text-center">
+              <img
+                src="images/testimonial/naim_hasan.jpg"
+                alt="FH shagor"
+                class="img-fluid rounded-circle mx-auto"
+              />
+              <h3 class="sub_title mt-5 mb-3 text-capitalize">naim hasan</h3>
+              <span class="text-capitalize"
+                ><span class="text-uppercase">ui</span> designer</span
+              >
+              <p class="paragraph mt-4">
+                <span class="quote">“</span> We were looking for a good web
+                designer to design our company's web site. On the advice of one,
+                I found Rezaul Karim. Rezaul Karim designed our site according
+                to our full-needs. Thank you. <span class="quote">”</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 column_outline_remove pb-5">
+            <div class="slider-content shadow bg-white p-5 text-center">
+              <img
+                src="images/testimonial/parvez_sarkar.jpg"
+                alt="parvez sarkar"
+                class="img-fluid rounded-circle mx-auto"
+              />
+              <h3 class="sub_title mt-5 mb-3 text-capitalize">parvez sarkar</h3>
+              <span class="text-capitalize">Web developer</span>
+              <p class="paragraph mt-4">
+                <span class="quote">“</span> First of all, I would like to thank
+                you, Rezaul Karim. Rezaul Karim is a good web designer. My
+                Website delivered on time. In fact, he prefers time, which makes
+                me want to work with him next time. <span class="quote">”</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--========================== END PORTFOLIO SECTION ==========================-->
+
+     
+    <!--========================== START FOOTER SECTION ==========================-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="footer_content text-center">
+              <h3 class="sub_title text-white text-uppercase">Rezaul</h3>
+             
+				  <div class="social_link footer_social mt-4 mb-5">
+					<ul class="list-inline">
+						<li class="list-inline-item">
+						  <a
+							 href="https://github.com/merndevreza"
+							 target="_blank"
+							 class="d-inline-block text-center"
+							 ><i class="fab fa-github"></i
+						  ></a>
+						</li>
+					  <li class="list-inline-item mr-3">
+						 <a
+							href="https://www.linkedin.com/in/webdevreza/"
+							target="_blank"
+							class="d-inline-block text-center"
+							><i class="fab fa-linkedin-in"></i
+						 ></a>
+					  </li>
+					  
+					  <li class="list-inline-item mr-3">
+						<a
+						  href="https://www.facebook.com/webdevreza"
+						  target="_blank"
+						  class="d-inline-block text-center"
+						  ><i class="fab fa-facebook-f"></i
+						></a>
+					 </li>
+					</ul>
+				 </div>
+              <p class="paragraph text-white">
+                Copyright &copy; 2019-2021 <strong>Rezaul Karim</strong> All
+                Rights Reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--========================== END FOOTER SECTION ==========================-->
+
+    <!-- BACK TO TOP -->
+    <button id="myBtn" title="Go to top">
+      <i class="fas fa-angle-up"></i>
+    </button>
+
+    <!----------------------------------------------------------------------------------->
+    <!-- MAIN JQUERY CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- BOOTSTRAP JQUERY -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+      integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+      crossorigin="anonymous"
+    ></script>
+    <!-- TYPE JQUERY CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- STICKY NAV CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+      integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- FANCYBOX CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+      integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- SLICK SLIDER CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ONE PAGE NAV CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-one-page-nav/3.0.0/jquery.nav.min.js"
+      integrity="sha512-I1SRWCuHnqVwlUXfm2TNMDduALHE1LfFpbQtFPY2z33Jy0iJAEXBDgrRrBLbpVChGclfCB0Hfy0F8wLVJtIVPQ=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- HOVER DIRECTION JS -->
+    <script src="js/jquery.directional-hover.min.js"></script>
+    <!-- CUSTOM JQUERY -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

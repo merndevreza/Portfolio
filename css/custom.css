@@ -1,0 +1,72 @@
+.logo-text, .logo-text:hover{
+   font-size: 30px;
+   font-family: "Nunito", sans-serif;
+   font-weight: 700;
+   color: #FF3342;
+}
+.logo-text span{
+   color: #17202A;
+}
+.skills-sec,
+.about-skills-sec{
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.skill-card{
+   font-size: 20px;
+   font-family: "Nunito", sans-serif;
+   font-weight: 700;
+   color: #17202A; 
+   border-radius: 50px;
+   border: 2px  solid #FF3342;
+   padding: 8px 10px;
+}
+.skill-card-with-level{
+   font-family: "Nunito", sans-serif;
+   font-weight: 700;
+   color: #17202A; 
+   border-radius: 50px;
+   border: 2px  solid #FF3342;
+   padding: 6px 20px;
+   display: flex;
+   flex-direction: column;
+}
+
+.skill-card-with-level.m2{
+   border: 2px  solid #f3a812!important;
+}
+.skill-card-with-level.m3{
+   border: 2px  solid #0da54a!important;
+}
+.skill-card-with-level p{
+   font-size: 18px;
+   margin: 0;
+}
+.skill-card-with-level span{
+   font-size: 14px; 
+}
+.portfolio-text{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 4px;
+}
+.title{
+   font-size: 20px!important;
+}
+.portfolio-skill{
+ color: #fff;
+ font-size: 16px;
+ list-style: none;
+ border-radius: 50px;
+ border: 2px  solid #fff;
+ padding: 2px 4px;
+}
+@media only screen and (max-width: 1200px) {
+   .skill-card{
+      font-size: 18px;
+      padding: 4px 6px;
+   }
+ }
