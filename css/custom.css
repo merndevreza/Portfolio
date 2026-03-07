@@ -46,6 +46,99 @@
 .skill-card-with-level span{
    font-size: 14px; 
 }
+
+/* ── Grouped skills layout ── */
+.skill_section .container{
+   max-width: 1200px;
+   margin: 0 auto;
+}
+.skills-grouped {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.skill-group {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 28px 0;
+}
+
+/* Left label column */
+.skill-group__label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width:230px;
+  padding-top: 6px;
+  flex-shrink: 0;
+}
+
+.level-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.level-dot.m3 { background-color: #0da54a; }
+.level-dot.m2 { background-color: #f3a812; }
+.level-dot.m1 { background-color: #FF3342; }
+
+.level-text {
+  font-family: "Nunito", sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #17202A;
+  opacity: 0.55;
+}
+
+/* Right chips area */
+.skill-group__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-chip {
+  font-family: "Nunito", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #17202A;
+  border-radius: 50px;
+  padding: 6px 18px;
+  border: 2px solid transparent;
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+.skill-chip:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.10);
+}
+
+.skill-chip.m3 { border-color: #0da54a; }
+.skill-chip.m2 { border-color: #f3a812; }
+.skill-chip.m1 { border-color: #FF3342; }
+
+/* Divider between groups */
+.skill-group__divider {
+  height: 1px;
+  background: #17202A;
+  opacity: 0.08;
+  margin: 0;
+}
+
+/* Responsive — stack label above chips on small screens */
+@media (max-width: 576px) {
+  .skill-group {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .skill-group__label {
+    padding-top: 0;
+  }
+}
 .portfolio-text{
    width: 100%;
    display: flex;

@@ -17,7 +17,7 @@ $(document).ready(function(){
 	
 	// TYPE JS
 	var typed = new Typed('.header_typing', {
-		strings: ["Full-Stack Developer", "MERN Stack Developer", "Next.js Developer", "React Developer", "Wordpress Expert", "Woocommerce Expert","Level 2 Seller at Fiverr", "Responsive Design Expert", "Speed Optimization Expert", "Web Designer"],
+		strings: ["Next.js Developer", "MERN Stack Developer", "React Developer", "Frontend Developer", "Responsive Design Expert"],
 		typeSpeed: 40,
 		backSpeed: 40,
 		loop: true,
